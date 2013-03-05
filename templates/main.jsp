@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title><cms:info property="opencms.title" /></title>
-	<cms:enable-ade>
+	<cms:enable-ade />
 <meta name="generator" content="A Body True" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="Keywords" content="A Body True" />
