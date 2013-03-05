@@ -462,7 +462,7 @@ The Message:
 <!-- Wraper Outer Ends -->
 <!-- Footer Starts -->
 <div id="footer">
-	<cms:container name=ÓfootercontainerÓ type=ÓfooterÓ />
+	<cms:container name="footercontainer" type="footer" />
 <p>This Site was developed by <a href="www.typeserve.com">TypeServe WebSolutions Group</a>, Dublin Ohio 2013 </p>
 	<p>&copy; All Right Reserved by <strong>A Body True</strong></p>
 </div>
