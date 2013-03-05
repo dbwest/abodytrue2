@@ -1,4 +1,5 @@
 <%@page taglibs=Óc,cms,fnÓ %>
+<c:set var="resfolder" value="/system/modules/com.typeserve.abodytrue/resources/" />
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -10,21 +11,21 @@
 <meta name="Description" content="A Body True" />
 <meta name="Author" content="TypeServe WebSolutions Group" />
 <meta name="robots" content="all" />
-<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/custom_style.css" type="text/css" media="screen" />
-<link rel="stylesheet" type="text/css" href="fonts/open-sans/style_fonts.css">
+<link rel="stylesheet" href="<cms:link>${resfolder}css/style.css</cms:link>" type="text/css" media="screen" />
+<link rel="stylesheet" href="<cms:link>${resfolder}css/custom_style.css</cms:link>" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="<cms:link>${resfolder}fonts/open-sans/style_fonts.css</cms:link>">
 <!--[if lt IE 7]>
    <script type="text/javascript" src="unitpngfix.js"></script>
 <![endif]-->
-<script type="text/javascript" src="js/custom_script.js"></script>
+<script type="text/javascript" src="<cms:link>${resfolder}js/custom_script.js</cms:link>"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
 
 <! -- Validation JQuery for Contact Form -->
-<script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
-<script src="js/contactvalidation.js" type='text/javascript'></script>
+<script src="<cms:link>${resfolder}js/jquery-1.3.2.min.js</cms:link>" type="text/javascript"></script>
+<script src="<cms:link>${resfolder}js/contactvalidation.js</cms:link>" type='text/javascript'></script>
 
-<script type="text/javascript" src="js/jquery_002.js"></script>
-<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="<cms:link>${resfolder}js/jquery_002.js</cms:link>"></script>
+<script type="text/javascript" src="<cms:link>${resfolder}js/jquery.js</cms:link>"></script>
 <!--[if lte IE 6]>
 	<script type="text/javascript" src="js/jquery-ie6.js"></script>
 <![endif]-->
@@ -64,11 +65,11 @@
 			<!-- Accordions Start -->
 			<div class="haccordion">
 				<!-- Home Starts -->
-				<a href="index.html"><img src="images/home.gif" alt="Home" width="45" height="529" class="floatleft" /></a>
+				<a href="index.html"><img src="<cms:link>${resfolder}images/home.gif</cms:link>" alt="Home" width="45" height="529" class="floatleft" /></a>
 				<div class="content visible">
 					<div class="home">
 						<h3>Welcome to A Body True</h3>
-						<p class="clearfix"><img src="images/home/massage.png" alt="Massage Image" width="250" height="188" class="floatright" />
+						<p class="clearfix"><img src="<cms:link>${resfolder}images/home/massage.png</cms:link>" alt="Massage Image" width="250" height="188" class="floatright" />
 <p>If youâ€™re interested in establishing an ongoing relationship with a professional Massage Therapist, I welcome you. A Body True is a great opportunity to experience your first massage as well. I have a passion for healing and thus my quest in creating A Body True.  I utilize both traditional and modern massage techniques in order to adapt to each individual client.</p>
 <h3>Why A Body True?</h3>
 <p>Massage is a superb way to manage the aches and pains we experience in our everyday lives, as well as engaging the Parasympathetic Nervous System which helps our bodies to rest and digest. A key component to your overall physical and mental wellbeing is the ability to completely quiet the body and the mind and set to work the healing mechanisms that we already have within our  makeup.</p>
@@ -82,22 +83,23 @@ Owner</p>
 				</div>
 				<!-- Home Ends -->
 				<!-- About Starts -->		
-				<a href="about.html"><img src="images/about.gif" alt="about" width="45" height="529" class="floatleft" /></a>
+				<a href="about.html"><img src="<cms:link>${resfolder}images/about.gif</cms:link>" alt="about" width="45" height="529" class="floatleft" /></a>
 				<div class="content">
 					<div class="about">
 						<h3>About</span></h3>
 						<p>
 						</p>
 						<div class="clearfix image">
-							<img src="images/sample-image3.jpg" alt="Sample Image3" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />
-							<img src="images/sample-image3.jpg" alt="Sample Image3" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />
-							<img src="images/sample-image3.jpg" alt="Sample Image3" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />
-							<img src="images/sample-image3.jpg" alt="Sample Image3" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />					
+							
+							<img src="<cms:link>${resfolder}images/sample-image3.jpg</cms:link>" alt="Sample Image3" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image4.jpg</cms:link>" alt="Sample Image4" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image3.jpg</cms:link>" alt="Sample Image3" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image4.jpg</cms:link>" alt="Sample Image4" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image3.jpg</cms:link>" alt="Sample Image3" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image4.jpg</cms:link>" alt="Sample Image4" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image4.jpg</cms:link>" alt="Sample Image4" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image3.jpg</cms:link>" alt="Sample Image3" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image4.jpg</cms:link>" alt="Sample Image4" width="150" height="73" />
 						</div>
 					</div>
 				</div>
@@ -110,15 +112,7 @@ Owner</p>
 						<p>
 						</p>
 						<div class="clearfix image">
-							<img src="images/sample-image3.jpg" alt="Sample Image3" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />
-							<img src="images/sample-image3.jpg" alt="Sample Image3" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />
-							<img src="images/sample-image3.jpg" alt="Sample Image3" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />
-							<img src="images/sample-image3.jpg" alt="Sample Image3" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />					
+											
 						</div>
 					</div>
 				</div>
@@ -131,15 +125,15 @@ Owner</p>
 						<p>
 						</p>
 						<div class="clearfix image">
-							<img src="images/sample-image3.jpg" alt="Sample Image3" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />
-							<img src="images/sample-image3.jpg" alt="Sample Image3" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />
-							<img src="images/sample-image3.jpg" alt="Sample Image3" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />
-							<img src="images/sample-image3.jpg" alt="Sample Image3" width="150" height="73" />
-							<img src="images/sample-image4.jpg" alt="Sample Image4" width="150" height="73" />					
+							<img src="<cms:link>${resfolder}images/sample-image3.jpg</cms:link>" alt="Sample Image3" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image4.jpg</cms:link>" alt="Sample Image4" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image3.jpg</cms:link>" alt="Sample Image3" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image4.jpg</cms:link>" alt="Sample Image4" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image3.jpg</cms:link>" alt="Sample Image3" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image4.jpg</cms:link>" alt="Sample Image4" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image4.jpg</cms:link>" alt="Sample Image4" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image3.jpg</cms:link>" alt="Sample Image3" width="150" height="73" />
+							<img src="<cms:link>${resfolder}images/sample-image4.jpg</cms:link>" alt="Sample Image4" width="150" height="73" />				
 						</div>
 					</div>
 				</div>
