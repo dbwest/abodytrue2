@@ -1,0 +1,38 @@
+.testimonials{
+	overflow: auto;
+}
+.testimonial-box{
+	font-family: 'Segoe UI Light', 'OpenSansLight', Verdana, Arial, Helvetica, sans-serif !important;
+	width: 520px;
+	margin-top: 5px;
+}
+#testimonial-head{
+	width: 100%;
+	background-color: #E85137;
+	color: #eee;
+	font-size: 16px;
+	padding: 10px;
+}
+.testimonial-body{
+	width: 100%;
+	min-height: 55px;
+	background-color: #FF7E49;
+	color: #eee;
+	padding: 10px;
+	display: none;
+	font-size: 12px;
+	border-radius: 0px 0px 10px 10px;
+}
+.haccordion .content img {
+	padding: 1px;
+}
+.haccordion .content .testimonial-box > .testimonial-body > img{
+	opacity: 1 !important;
+	float: left;
+	width: 50px !important;
+	height: 50px !important;
+	overflow: hidden;
+	margin-right: 10px;
+	background-color: #eee;
+	padding: 1px solid #eee !important; 
+}
